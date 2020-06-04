@@ -1,0 +1,207 @@
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
+/*--------------------*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column; 
+
+}
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+.content {
+    flex: 1 1 auto;
+}
+.hi {
+    background-color: #3a3ce2;
+    padding: 50px 0;
+}
+.hi__row {
+    display: flex;
+    justify-content: space-around;
+}
+.hi__body {
+    color: #fff;
+    padding-right: 30px;
+}
+.hi__title {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 60px;
+    margin: 0 0 30px 0;
+}
+.list {
+}
+.list li{
+    background: url('img/icon.png') 0 0 no-repeat;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    padding: 0 0 0 36px;
+    margin: 0 0 17px 0;
+}
+
+.list li:last-child{
+    margin: 0;
+}
+.image {
+    
+}
+.footer {
+    background: repeating-linear-gradient(#3a3ce2,#f5f5f5);
+}
+.footer__row {
+    display: flex;
+    height: 65px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.footer_text {
+    letter-spacing: 0.3px;
+    color: #3a3ce2;
+    font-size: 12px;
+}
+
+.what__title-title {
+    /* Style for "Что такое" */
+
+color: #445161;
+font-size: 30px;
+margin: 0 0 33px 0;
+}
+
+.what {
+    padding: 50px 0;
+    background: linear-gradient(#3a3ce2,#f5f5f5);
+}
+.container {
+}
+.what__row {
+    display: flex;
+    justify-content: space-between;
+}
+.what__image {
+    flex: 0 0 200px;
+}
+.what__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 38px;
+}
+.what__text p{
+    margin: 0 0 23px 0;
+    color: #333333;
+    line-height: 24px;
+    font-size: 16px;
+}
+.item__row {
+    display: flex;
+}
+.item__image {
+    flex: 0 0 200px;
+}
+.item__body {
+    flex: 1 1 auto;
+    padding: 0 0 0 15px;
+}
+.item__title {
+    color: #445161;
+    margin: 0 0 30px 0;
+    font-size: 24px;
+    line-height: 30px;
+    margin: 0 0 13px 0;
+}
+.item__text {
+    color: #333333;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.verical {
+    padding: 50px 0;
+    background: linear-gradient(#f5f5f5,#3a3ce2);
+}
+.container {
+}
+.vertical_title {
+}
+.title {
+    text-align: center;
+    color: #445161;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0 0 30px 0;
+}
+.vertical__body {
+    max-width: 990px;
+    margin: 0px auto;
+}
+.vertical__rows {
+    display: flex;
+    margin: 0 -22.5px;
+}
+.vartical__column {
+    padding: 0 22.5px;
+    flex: 0 1 33.333333%;
+    display: flex;
+}
+.vertical__item {
+    display: flex;
+    flex-direction: column;
+    background-color: #a5762f;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #a5762f;
+    padding: 0 0 20px 0;
+}
+.vertical__sublabel {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.vertical__label {
+    padding: 15px 0;
+    background-color: #fff;
+    color: #a5762f;
+    text-align: center;
+    font-size: 40px;
+    line-height: 30px;
+}
+.vertical__text {
+    padding: 20px 0;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 20px;
+    flex: 1 1 auto;
+}
+.vertical__btn {
+    /* Style for "bg button" */
+    margin: 0 20px;
+    display: block;
+    height: 40px;
+    background-color: #ffffff;
+    text-align: center;
+    color: #a5762f;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 40px;
+}
